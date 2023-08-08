@@ -1,9 +1,9 @@
 
 import './App.css';
-import{BrowserRouter as Router,Routes,Route} from 'react-router-dom'
-import { Home } from './pages/Home';
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import  Home  from './pages/Home';
 import { Menu } from './pages/Menu';
-import { Contact } from './pages/Contact';
+import  Contact  from './pages/Contact';
 import { Navbar } from './Navbar';
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
       
     </div>
   );
+  
 }
 
 export default App;
